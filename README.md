@@ -1,13 +1,15 @@
 # PA-TCNet
-![PA-TCNet](./Graphical Abstract.png)
+
+![PA-TCNet](./Model.png)
 
 ## Paper Title
 PA-TCNet: Pathology-Aware Temporal Calibration with Physiology-Guided Target Refinement for Cross-Subject Motor Imagery EEG Decoding in Stroke Patients
 
+
 ## Results
-
-
-
+The experimental and visualization results are presented below.
+![Results](./results.png)
+![Vis](./vis.png)
 
 ## Environment
 Code developed and tested in Python 3.12.12 using PyTorch 2.5.1.
