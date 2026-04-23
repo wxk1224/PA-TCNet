@@ -8,7 +8,7 @@ PA-TCNet: Pathology-Aware Temporal Calibration with Physiology-Guided Target Ref
 
 ![Fameworks](./Fig/Framework.png)
 
-![Model](./Fig/model.png)
+![Model](./Fig/Model.png)
 
 ## Results
 
