@@ -1,10 +1,10 @@
-## PA-TCNet
+# PA-TCNet
 
-### Paper Title
+## Paper Title
 
 PA-TCNet: Pathology-Aware Temporal Calibration with Physiology-Guided Target Refinement for Cross-Subject Motor Imagery EEG Decoding in Stroke Patients
 
-### PGTC & PRSM
+## PGTC & PRSM
 
 ![Fameworks](./Fig/Framework.png)
 
@@ -15,6 +15,16 @@ PA-TCNet: Pathology-Aware Temporal Calibration with Physiology-Guided Target Ref
 The experimental and visualization results are presented below.
 ![Results](./Fig/results.png)
 ![Vis](./Fig/vis.png)
+
+## Environment
+
+Code developed and tested in Python 3.12.12 using PyTorch 2.5.1.
+```
+Python      : 3.12.12
+PyTorch     : 2.5.1
+CUDA        : 12.4
+Device      : cuda
+```
 
 ## Configuration
 
@@ -44,21 +54,13 @@ The experimental and visualization results are presented below.
 | `--override-sub-list`           |            `None` | Optional explicit subject-id list for LOSO evaluation. It replaces the default subject list. |
 | `--fast-dev-run`                |           `False` | Quick debugging switch. It limits epochs to at most 8, keeps only two subjects, and limits PGTC warmup to at most 2 epochs. |
 
-## Environment
-
-Code developed and tested in Python 3.12.12 using PyTorch 2.5.1.
-```
-Python      : 3.12.12
-PyTorch     : 2.5.1
-CUDA        : 12.4
-Device      : cuda
-```
 
 ## Datasets
 The experiments are conducted on publicly available datasets, which can be accessed at:
-XW-Stroke: https://doi.org/10.6084/m9.figshare.21679035.v5 
 
-2019-Stroke: https://doi.org/10.6084/m9.figshare.7636301
+- XW-Stroke: https://doi.org/10.6084/m9.figshare.21679035.v5 
+- 2019-Stroke: https://doi.org/10.6084/m9.figshare.7636301
+
 
 ## Citation
 If you find our codes helpful, please star our project and cite our following papers:
